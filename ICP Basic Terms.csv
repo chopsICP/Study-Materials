@@ -1,0 +1,30 @@
+An entity that can be authenticated by ICP.;Principal
+A statement describing a suggested modification to an aspect of ICP or its subsystems, submitted for consideration by eligible neuron owners and voted on by the community.;Proposal
+The result of any operation, function call, or transaction that changes the information stored within a canister.;State change
+A canister or several interoperable canisters that provide a program or service deployed on the Internet Computer.;Decentralized application (dapp)
+A piece of data that a canister stores in the subnet's canonical state during the processing of an update or inter-canister call, used in query calls to return a certificate proving the data's value.;Certified Variables
+Data sent from one canister to another canister, or data sent from a user to a canister.;Messages
+The collection of protocol components necessary for a node to participate in a subnet on the Internet Computer.;Replica
+The entity that has administrative rights over a canister, identified by their principal. Capable of performing functions such as upgrading or deleting the canister.;Controller
+A method used to execute operations on a canister synchronously, without requiring consensus to verify the result.;Query
+A ledger account owned by a canister.;Canister Account
+Stateful programs designed to automatically execute, control, or document events according to their configuration. Deployed as a bundle of data and code on the Internet Computer.;Smart Contracts
+An adapter in the Internet Computer SDK that provides a programming language with functionality to create and manage canisters.;Canister development kit (CDK)
+A library used to make calls to the Internet Computer public interface. External examples include JavaScript and Rust libraries.;Agent
+The layer responsible for executing canister smart contract code, done using WebAssembly (Wasm).;Execution
+A unit of measurement used for resources consumed by a canister, such as compute processing power, memory, storage, and network bandwidth. Converted from the utility token ICP using the current price in XDR (Special Drawing Rights from IMF).;Cycles
+Pre-installed canisters that perform specific tasks to help maintain the Internet Computer.;System canister
+A type of smart contract computational unit that bundles together both code and state, used as the primary place for code development on the Internet Computer.;Canister
+A form of governance where there is no centralized authority, and decisions are made by stakeholders through voting on proposed decisions. All activity is executed onchain for transparency;Decentralized autonomous organization (DAO)
+The primary tool used for creating, managing, and deploying canisters on the Internet Computer. A component of the IC SDK.;dfx
+An array of advanced cryptographic mechanisms that allow ICP to achieve scalability and functionalities not possible on other blockchain networks. Includes a single public key used for verifying the authenticity of artifacts from ICP.;Chain-key cryptography
+A system canister used to store accounts and their corresponding transactions.;Ledger
+The native utility token of the Internet Computer, used for network governance through token staking or for converting into cycles to pay for resource consumption.;ICP
+A programming language developed specifically for the Internet Computer, designed to support ICP's unique features, such as the actor model and compilation to WebAssembly.;Motoko
+A globally-unique identifier for a canister, used to interact with it.;Canister identifier
+Refers to the entire state of a canister at any given point in time, divided into system state (contains auxiliary information such as cycles balance) and user state (contains the WebAssembly module instance).;Canister state
+A collection of nodes that operate an independent instance of the blockchain network, running their own implementation of the consensus algorithm. Interacts with others through chain-key cryptography.;Subnet
+A principal value used for access control of canisters, which can be set as controllers and have cycles wallets associated with them.;Identity
+A process with an encapsulated state that communicates with other processes concurrently through asynchronous messages. These messages are received sequentially, and the process can modify its own private state, but can only alter others indirectly through messages. Used in concurrent and asynchronous computation models.;Actor
+The Internet Computer's native authentication system.;Internet Identity
+The ledger process of transferring ICP from one account to another, which can include regular transfers, minting, or burning.;Transaction
