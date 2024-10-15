@@ -1,0 +1,74 @@
+A ledger account that tracks entries for ICP utility tokens.;Account
+Synonymous with account in the context of ledger transactions.;Address
+A process with encapsulated state that communicates with others via asynchronous messages.;Actor
+The sum of all deposits minus all withdrawals in an ICP account.;Balance
+A collection of messages ordered by consensus.;Batch
+The principal who owns the balance of an account.;Beneficiary
+A growing list of cryptographically linked blocks, agreed upon by consensus.;Blockchain
+Gateways to the Internet Computer, routing requests to the nearest subnet.;Boundary Nodes
+The process of destroying ICP to create cycles for canisters.;Burning Transaction
+An interface description language for communication between services on ICP.;Candid
+A smart contract that bundles code and state on the Internet Computer.;Canister
+A ledger account owned by a canister.;Canister Account
+An adapter that provides features for creating and managing canisters.;Canister Development Kit (CDK)
+A globally unique identifier for a canister.;Canister Identifier
+A signature scheme used by canisters to prove authenticity.;Canister Signature
+The entire state of a canister, including user and system state.;Canister State
+A data bundle containing everything needed to bootstrap a subnet replica.;Catch-up Package (CUP)
+A query call whose response is certified.;Certified Query
+Data stored by a canister that can be certified as committed to by the canister.;Certified Variable
+A set of cryptographic protocols that give ICP a single public key for verifying authenticity.;Chain-Key
+A mechanism by which nodes agree on a value or state in a distributed system.;Consensus
+An entity with administrative rights over a canister, like upgrading code or deleting it.;Controller
+The unit of resource consumption for processing, memory, and bandwidth on ICP.;Cycle
+A decentralized application running on a blockchain network.;Dapp
+A physical site hosting nodes for the Internet Computer.;Data Center
+The time a neuron must spend dissolving before becoming dissolved.;Dissolve Delay
+A neuron state where its dissolve delay is zero, allowing it to be disbursed.;Dissolved State
+A neuron state after the "start dissolving" command is issued.;Dissolving State
+A core layer of the replica software responsible for executing canister operations.;Execution Environment
+The principal allowed to make transactions on an account.;Fiduciary
+A system canister that implements the governance system of ICP.;Governance Canister
+The utility token of the Internet Computer.;ICP (Internet Computer Protocol Token)
+A ledger account used in ICP minting and burning operations.;ICP Supply Account
+A byte string used to identify an entity interacting with the Internet Computer.;Identity
+An anonymizing blockchain authentication system on the Internet Computer.;Internet Identity
+The collection of input queues of all canisters on a subnet blockchain.;Induction Pool
+A message sent by an end-user to a canister on a subnet blockchain.;Ingress Message
+The record of the status of every processed ingress message.;Ingress Message History
+The queue containing messages bound for a specific canister.;Input Queue
+A message sent from one canister to another.;Inter-Canister Message
+A decentralized blockchain protocol that provides scalable compute capacity.;Internet Computer Protocol (ICP)
+A system canister that stores accounts and transactions on the Internet Computer.;Ledger Canister
+Data sent between canisters or between users and canisters.;Message
+The layer that handles batches of messages and queues them for execution.;Message Routing
+The process of creating new ICP tokens to reward neuron voting and node operation.;Minting Transaction
+A programming language designed for the Internet Computer.;Motoko
+A neuron state in which it is not dissolving or dissolved, allowing it to age.;Non-Dissolving State
+A decentralized autonomous organization that governs the Internet Computer.;Network Nervous System (NNS)
+An entity that can vote and propose changes on the Internet Computer, backed by staked ICP.;Neuron
+An account holding the ICP staked by a neuron.;Neuron Account
+The parameter indicating how long a neuron has been in a non-dissolving state.;Neuron Age
+A physical hardware device participating in the Internet Computer network.;Node
+An individual authorized to add or remove nodes on the Internet Computer.;Node Operator
+An individual or entity that receives rewards for contributing nodes to the Internet Computer.;Node Provider
+The queue of messages a canister sends to other canisters.;Output Queue
+A distributed architecture where equal nodes share resources and workload.;Peer-to-Peer (P2P)
+An entity that can be authenticated by ICP.;Principal
+A statement describing an action to modify parameters in the Internet Computer.;Proposal
+A hardware-software combination waiting to be registered as a node.;Proto-Node
+A synchronous request to a canister for operations that don't alter its state.;Query
+A collection of protocol components allowing a node to participate in a subnet.;Replica
+A canister managing the metadata in the Network Nervous System.;Registry
+A stateful computer program that automatically executes actions based on conditions.;Smart Contract
+The result of any operation that changes the data in a canister.;State Change
+The component responsible for maintaining the replicated state and syncing it between nodes.;State Manager
+A collection of nodes running a consensus algorithm to maintain a blockchain.;Subnet
+A pre-installed canister that performs tasks needed to maintain ICP.;System Canister
+The process of transferring ICP between accounts on the ledger.;Transaction
+A transfer of ICP from one ledger account to another.;Transfer Transaction
+An entity interacting with the Internet Computer, such as developers or token holders.;User
+The rule determining the validity of an induction pool.;Valid Set Rule
+The process of selecting and adopting proposals through neuron voting.;Voting
+A binary instruction format for a virtual machine, used to execute code on ICP.;WebAssembly
+The currency code for special drawing rights, a foreign exchange asset managed by the IMF.;XDR
